@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+</head>
+<body>
+    <h1 th:text="${tituloProyecto}">Título</h1>
+    <h2>¡Producto Registrado Exitosamente!</h2>
+
+    <p><strong>Nombre:</strong> <span th:text="${producto.nombre}"></span></p>
+    <p><strong>Precio:</strong> <span th:text="${producto.precio}"></span></p>
+    <p><strong>Categoría:</strong> <span th:text="${producto.categoria}"></span></p>
+
+    <br>
+    <a th:href="@{/app/productos}">Regresar al listado</a>
+</body>
+</html>

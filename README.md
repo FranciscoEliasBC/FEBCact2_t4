@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Descripción de la Actividad
+## Descripción de la Actividad
 Desarrollo y despliegue de una aplicación web basada en **Spring Boot** y **Spring MVC**, 
 construida como una evolución de la Actividad 1. Implementa el motor de plantillas **Thymeleaf**, 
 transferencia de datos mediante la clase `ProductoDTO`, controladores MVC (`@Controller`) con 
@@ -18,7 +18,7 @@ inyección de propiedades personalizadas (`@Value`), y validación de endpoints 
 
 ---
 
-## 🛠️ Tecnologías y Componentes Utilizados
+## Tecnologías y Componentes Utilizados
 * **Java 21** / **Spring Boot (v4.1.2)**
 * **Spring Web / Spring MVC**
 * **Thymeleaf** (Motor de plantillas HTML5)
@@ -28,7 +28,7 @@ inyección de propiedades personalizadas (`@Value`), y validación de endpoints 
 
 ---
 
-## 📂 Estructura del Proyecto y Endpoints Principales
+## Estructura del Proyecto y Endpoints Principales
 
 | Método HTTP | Ruta URL | Controlador / Acción | Descripción |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ inyección de propiedades personalizadas (`@Value`), y validación de endpoints 
 
 ---
 
-## 🖼️ Evidencias y Capturas de Pantalla
+## Evidencias y Capturas de Pantalla
 
 ### 1. Vista Principal / Catálogo de Productos (`/app/productos`)
 *Aquí se visualiza la variable leída desde `application.properties` con `@Value` y la tabla generada con Thymeleaf.*
